@@ -10,5 +10,5 @@ function draw() {
   background(220);
   circle(x, height/2, 24);
   x+=xSpeed
-  if(x > width - 12 || x < 12) xSpeed += -1;
+  if(x > width - 12 || x < 12) xSpeed *= -1;
 }
